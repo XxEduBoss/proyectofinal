@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo {
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 8px 7px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 7px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 7px -4px rgba(0,0,0,0.75);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 25% 0px 25%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px 40px 5px;
+}
+
+.todo::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.15);
+    transform: rotate(-5deg);
+    margin: 5% 25% 0px 25%;
+    border-radius: 15px;
+    padding: 0px 5px 40px 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+}
+
+.todo img {
+    width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    height: 40px;
+    padding-left: 10px;
+    transition: all 0.4s;
+}
+
+input:focus {
+    background-color: white;
+}
+
+label {
+    padding-left: 8%;
+}
+
+.botones {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.botones a {
+    width: 100%;
+}
+
+.botones button {
+    border: none;
+    border-radius:20px ;
+    background-color: #336c81;
+    padding: 7px 12px;
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.botones button:hover {
+    background-color: #1b5063;
+    transform: scale(1.03);
+}
+
+.fago img {
+    width: 40px;
+    margin: 20px 20px 0px 20px;
+    transition: all 0.3s;
+}
+
+.fago img:hover {
+    transform: scale(1.1);
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=checkbox] {
+    accent-color: black;
+}
+
+.linea1 {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+.fago a {
+    text-decoration: none;
+}
