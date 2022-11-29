@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-between;
     align-items: center;
     height: 125px;
-    padding: 5px 10%;
+    padding: 5px 4%;
     top: 0px;
     position: sticky;
     width: 100%;
@@ -50,28 +50,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header .logo img:hover{
-    transform: scale(1.2);
+    transform: scale(1.04);
 }
 
-.header .btn button{
-    font-weight: 700;
-    color: white;
-    padding: 9px 25px;
-    background: #336c81;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+.nselect {
+    color: #999c9f;
     transition: all 0.3s ease 0s;
+    padding: 2px;
+    margin: 10px;
 }
 
-.header .btn button:hover{
-    background-color: #1b5063;
-    transform: scale(1.1);
+.nselect:hover {
+    color: #dbe0e6;
+}
+
+.select {
+    color: #f4f9ff;
+    padding: 2px;
+    margin: 10px;
 }
 
 .buscar {
-    display: flex;
-    align-items: center;
+    width: 33%;
 }
 
 .buscar input {
@@ -79,22 +79,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px ;
     text-align: center;
     height: 42px;
-    width: 400%;
-    margin-left: -150px;
+    width: 100%;
     outline: none;
     background-color: #F5F5F5;
-}
-
-.buscar label {
-    position: absolute;
-    align-items: center;
-    left: 41%;
-    top: 48px;
-}
-
-.buscar label img{
-    width: 30px;
-    align-items: center;
 }
 
 a {
@@ -196,7 +183,7 @@ a {
 }
 
 footer {
-    background-color: #313131;
+    background-color: black;
     height: 150px;
     margin-top: 100px;
     display: flex;
@@ -256,7 +243,7 @@ ul {
     padding: 5px;
     border-radius: 25px;
     font-size: medium;
-    background-color: black;
+    background-color: rgba(43, 43, 43, 0.459);
     color: white;
     transition: all 0.3s ease 0s;
 }

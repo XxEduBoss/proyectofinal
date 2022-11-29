@@ -30,13 +30,11 @@ body {
     inset: 0;
     background: rgba(255, 255, 255, 0.15);
     transform: rotate(-5deg);
-    margin: 5% 25% 0px 25%;
+    margin: 5% 25% 6% 25%;
     border-radius: 15px;
-    padding: 0px 5px 40px 5px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 80%;
 }
 
 .todo img {
@@ -125,4 +123,9 @@ input[type=checkbox] {
 
 .fago a {
     text-decoration: none;
+}
+
+.notienes {
+    gap: 1rem;
+    margin-top: 10px;
 }
