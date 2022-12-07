@@ -7,6 +7,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+*::-moz-selection {
+    color: black;
+    background-color: white;
+}
+
+*::selection {
+    color: black;
+    background-color: white;
+}
+
 .todo {
     background: rgba(255, 255, 255, 0.5);
     text-align: center;

@@ -8,6 +8,16 @@
     font-size: 20px;
 }
 
+*::-moz-selection {
+    color: black;
+    background-color: white;
+}
+
+*::selection {
+    color: black;
+    background-color: white;
+}
+
 body{
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     font-family: 'Nunito', sans-serif;
