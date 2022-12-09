@@ -6,7 +6,6 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
-    cursor: url("https://www.resizepixel.com/Image/24ljdqd9nf/Preview/cursor.png?v=d88d9cad-ad41-4bd9-9524-0a7351b7f338"), default;
 }
 
 *::-moz-selection {
@@ -282,7 +281,7 @@ ul {
     outline: none;
     border: none;
     padding: 5px;
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: medium;
     background-color: rgba(43, 43, 43, 0.459);
     color: white;
@@ -295,5 +294,5 @@ ul {
 }
 
 .menu_des select:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
