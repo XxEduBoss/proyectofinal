@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/inicio_sesion.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0" />
     <title>Cine Eruga - Inicia Sesión</title>
-    <link rel="stylesheet" href="CSS/style_inicio_sesion.css">
-    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/130/1021/png-transparent-movie-logo-movie-logo-film-tape-cinema.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="todo">
 
-        <div class="imagen">
-            <img src="logo.png">
-        </div>
-
-        <div class="text">
-            <h1>INICIA SESIÓN</h1>
-        </div>
-
-        <BR></BR>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-start">
-                    <label for="correo">Correo electrónico:</label>
-                </div>
-                <div class="col-md-9">
-                    <input type="text" id="correo" placeholder="Ingrese tu correo" required autofocus>
-                </div>
+    <div class="carta">
+        <div class="login">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
             </div>
-            <br>
-            <div class="row">
-                <div class="col-md-3 text-start">
-                    <label for="contraseña">Contraseña:</label>
+            <div class="header">
+                <h1>INICIA SESIÓN</h1>
+                <div>Por favor, inicia sesión para poder navegar.</div>
+            </div>
+            <form class="form">
+                <div class="item">
+                    <span class="icono material-symbols-rounded">mail</span>
+                    <input type="text" placeholder="Correo electrónico:" id="Correo" 
+                    autofocus required>
                 </div>
-                <div class="col-md-9">
-                    <input type="text" id="contraseña" placeholder="Ingrese tu contraseña" required>
+                <div class="item">
+                    <span class="icono material-symbols-rounded">lock</span>
+                    <input type="password" placeholder="Contraseña:" id="Contraseña"
+                     required>
                 </div>
+                <div class="otro">
+                    <div class="checkbox">
+                        <input type="checkbox" id="recuerdame" checked>
+                        <label for="recuerdame">Recuerdame</label>
+                    </div>
+                    <a href="#">¡He olvidado mi contraseña!</a>
+                </div>
+                <div class="boton">
+                    <a href="index2.html">
+                        <button type="submit">Inicia Sesión</button>
+                    </a>
+                </div>
+            </form>
+            <div class="footer">
+                ¿No tienes todavía una cuenta? <a href="registro.html">Regístrate.</a>
             </div>
         </div>
-        
-        <div class="linea1">
-            <div class="checkbox">
-                <input type="checkbox" id="recuerda">
-                <label for="recuerda">Recuerdame</label>
-            </div>
-            <a href="#">¡He olvidado mi contraseña!</a>
-        </div>
-
-        <div class="botones">
-            <a href="index2.html">
-                <button>Continuar</button>
-            </a>
-        </div>
-
-        <div class="notienes">
-            ¿No tienes todavía una cuenta? <a href="registro.html">Regístrate</a>
-        </div>
-
         <div class="fago">
-
-            <a href="https://es-es.facebook.com/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png">
-            </a>
-
-            <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" target="_blank">
-                <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png">
-            </a>
-
+            <div>Otras opciones:</div>
+            <div class="botones">
+                <a href="https://es-es.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                        width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                    </svg>
+                </a>
+                <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8"></path>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
+
 </body>
+
 </html>
